@@ -82,31 +82,31 @@ const Navbar = () => {
           href="/"
           className="text-sm bg-black rounded-md p-1 font-semibold flex items-center justify-center"
         >
-          <span className="text-white mr-1">Lama</span>
+          <span className="text-white mr-1">jossi</span>
           <span className="w-12 h-8 rounded bg-white text-black flex items-center justify-center">
-            .dev
+            30
           </span>
         </Link>
       </div>
       {/* SOCIAL */}
       <div className="hidden md:flex gap-4 w-1/3">
-        <Link href="/">
-          <Image src="/github.png" alt="" width={24} height={24} />
+        <Link href="https://github.com/jossi30">
+          <Image src="/github.png" alt="" width={34} height={34} />
         </Link>
-        <Link href="/">
-          <Image src="/dribbble.png" alt="" width={24} height={24} />
+        <Link href="https://x.com/jossi30_">
+          <Image src="/x.png" alt="" width={34} height={34} />
         </Link>
-        <Link href="/">
-          <Image src="/instagram.png" alt="" width={24} height={24} />
+        <Link href="https://www.instagram.com/joseph30g/">
+          <Image src="/instagram.png" alt="" width={34} height={34} />
         </Link>
-        <Link href="/">
-          <Image src="/facebook.png" alt="" width={24} height={24} />
+        <Link href="https://www.facebook.com/yosief.ghebretnsae">
+          <Image src="/facebook.png" alt="" width={34} height={34} />
         </Link>
-        <Link href="/">
-          <Image src="/pinterest.png" alt="" width={24} height={24} />
+        <Link href="https://www.pinterest.com/jossi30/">
+          <Image src="/pinterest.png" alt="" width={34} height={34} />
         </Link>
-        <Link href="/">
-          <Image src="/linkedin.png" alt="" width={24} height={24} />
+        <Link href="https://www.linkedin.com/in/yosief-g-hailay-290277213/">
+          <Image src="/linkedin.png" alt="" width={34} height={34} />
         </Link>
       </div>
       {/* RESPONSIVE MENU */}
