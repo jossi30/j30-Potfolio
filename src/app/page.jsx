@@ -28,14 +28,14 @@ const Homepage = () => {
           </p>
           {/* BUTTONS */}
           <div className="w-full flex gap-4">
-            <a href="portfolio">
-              <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
+            <a href="#portfolio">
+              <button className="p-4 rounded-lg ring-1 ring-black">
                 View My Work
               </button>
             </a>
-            <a href="contact">
-              <button className="p-4 rounded-lg ring-1 ring-black">
-                Contact Me
+            <a href="/cv.pdf" download>
+              <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
+                Download CV
               </button>
             </a>
           </div>
